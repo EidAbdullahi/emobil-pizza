@@ -1,0 +1,259 @@
+
+body{
+    background-color:whitesmoke;
+    background-size: cover;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.header {
+    overflow: hidden;
+    background-color:black;
+    width: 100%;
+    margin-top: 0px;
+  }
+  .header a {
+    float: left;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 25px 80px;
+    text-decoration: none;
+    font-size: 25px;
+    text-decoration-color: blanchedalmond;
+    
+  }
+  .header a:hover {
+    background-color: red;
+    color:white
+  }
+  .header a.active {
+    background-color: #4CAF50;
+    color: white;
+ }
+ #Home{
+   background-image: url("./images/logo10_15_213152.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+
+ }
+ .welcome{
+   text-align: right;
+ }
+   
+
+ html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 5px 2px;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+}
+
+.container {
+  padding: 0 16px;
+  }
+h2{
+  text-align:center;
+  text-transform:uppercase;
+  
+}
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color:wheat;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 5px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 50;
+  
+}
+
+.button:hover {
+  background-color:red;
+}
+
+@media screen and (max-width: 6px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.form-group{
+  background-color:rgb(182, 99, 99);
+  color: black;
+  width: 100%;
+  padding: 10px;
+  margin-left: 0px;
+  font-size: 28px;
+  text-shadow: brown;
+}
+ #type {
+  width: 50%;
+  padding: 10px;
+}
+ #crust{
+   width: 50%;
+   padding: 10px;
+ }
+ #top{
+  width: 50%;
+  padding: 10px;
+ }
+ #size{
+  width: 50%;
+  padding: 10px;
+ }
+ #qty{
+  width: 50%;
+  padding: 10px;
+ }
+ #pick{
+  width: 50%;
+  padding: 10px;
+ }
+ #menu h1{
+  margin-left: 80px;
+} 
+
+
+.text {
+  background-color:transparent;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+
+}
+
+.row{
+  display: flex;
+  text-align: center;
+  width: 100%;
+} 
+#oder h2{
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+  font-size:50px;
+
+}
+#oder{
+  background-color:rgb(199, 199, 219)
+}
+
+.img-fluid{
+  width:246px;
+  height:205px;
+}
+ .book img{
+  float:left;
+  width:75vh;;
+  height:75vh;
+} 
+input[type=text], select {
+  width: 100%; 
+}
+  
+ input[type=submit] {
+ width:100%;
+}  */
+
+.form-group{
+  width:100%;
+  font-size:20px;
+  margin-bottom:20px;
+}
+ #order{
+  margin-top: 2%;
+  background-color: rgb(128, 82, 170);
+}
+#order h1 {
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 2px;
+}
+#som{
+ float: left;
+  widows: 50%;
+  display: inline-flex;
+}
+.row2{
+  width: 100%;
+}
+#about{
+  background-color: white;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#location{
+  padding: 30px;
+  margin: 30px;
+  font-size: 30px;
+}
+#footer {
+  margin-top: ;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:blueviolet;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  margin-top: 30px;
+}
+#col{
+  
+  color: whitesmoke;
+  font-size: 30px;
+}
+#pp{
+  color: white;
+  font-size: 25px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  margin-top: 25px;
+  background-color: black;
+}
+#cc{
+  color: aqua;
+  background-color: black;
+  width: 33.3%;
+  margin-left: 33.3%;
+  margin-right: 33.3%;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
